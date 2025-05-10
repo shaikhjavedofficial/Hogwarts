@@ -1,0 +1,17 @@
+<svg width="1524" height="857" viewBox="0 0 1524 857" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_40)">
+<rect width="1524" height="857" fill="url(#paint0_linear_1_40)" style="mix-blend-mode:lighten"/>
+<ellipse cx="18" cy="876.5" rx="156" ry="151.5" fill="#FDBC31" style="mix-blend-mode:soft-light"/>
+<ellipse cx="1497" cy="60.5" rx="156" ry="151.5" fill="#FDBC31" style="mix-blend-mode:soft-light"/>
+<ellipse cx="695" cy="843.5" rx="156" ry="151.5" fill="#FDBC31" style="mix-blend-mode:soft-light"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_40" x1="303.5" y1="181.192" x2="474.298" y2="730.906" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#183BA3"/>
+</linearGradient>
+<clipPath id="clip0_1_40">
+<rect width="1524" height="857" fill="white"/>
+</clipPath>
+</defs>
+</svg>
