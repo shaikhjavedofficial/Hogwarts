@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import axios from "axios";
+import Cookies from "js-cookie";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useBreakpoint } from "../hooks/useBreakpoints";
@@ -44,8 +45,10 @@ const Tasks: React.FC = () => {
   const fetchTasks = async () => {
     setLoading(true);
     try {
+      const token = Cookies.get("token");
       const res = await axios.get(process.env.API_URL + "/tasks", {
         withCredentials: true,
+        headers: token ? { Authorization: `Bearer ${token}` } : undefined,
       });
       setTasks(res.data);
       setError("");
